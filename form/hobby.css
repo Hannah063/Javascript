@@ -1,0 +1,20 @@
+.container{
+    border: 1px solid black;
+    padding-left: 20px;
+}
+.who{
+    padding-top:5px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.club{
+    padding-left: 30px;
+}
+
+.btn{
+    border: 2px solid black;
+}
+.btn:hover{
+    border: n;
+    background-color: red;
+}

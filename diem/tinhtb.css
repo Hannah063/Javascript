@@ -1,0 +1,24 @@
+.container{
+    margin-top: 55px;
+    background-color: rgb(170, 123, 84);
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.row{
+    height: 40px;
+    font-size: 17px;
+}
+.button{
+    margin-top: 25px;
+}
+
+#ok:hover{
+    background-color: green;
+}
+
+#cancle:hover{
+    background-color: red;
+}

@@ -1,0 +1,30 @@
+body{
+	margin-top: 55px;
+}
+
+.color-trafic{
+	text-align: center;
+}
+
+button{
+	width: 75px;
+	height: 45px;
+	margin: 0 15px;
+}
+
+#red:hover{
+	background-color: red;
+}
+
+#yellow:hover{
+	background-color: yellow;
+}
+
+#green:hover{
+	background-color: green;
+}
+
+img{
+	margin-left: 40%;
+	margin-top: 30px;
+}

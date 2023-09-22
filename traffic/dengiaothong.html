@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="color-trafic">
+        <button onclick="functionRed()" id="red">Red</button>
+        <button onclick="functionYellow()" id="yellow">Yellow</button>
+        <button onclick="functionGreen()" id="green">Green</button>
+    </div>
+    <img id="image" src="red.png"></img>
+
+    <script>
+        function functionRed(){
+            document.getElementById('image').src = "red.png";
+        }
+        function functionYellow(){
+            document.getElementById('image').src = "yellow.png";
+        }
+        function functionGreen(){
+            document.getElementById('image').src = "green.png";
+        }
+    </script>
+</body>
+</html>

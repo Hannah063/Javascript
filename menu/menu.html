@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+<body>
+    <img src="menu.jpg" alt="">
+    <div class="container" style="width: 500px; height: 250px;">
+        <p class="title">Mời bạn lựa chọn: </p>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Nước ngọt các loại: </p>
+            </div>
+            <div class="col-md-3">
+                <select name="" id="soft-drinks">
+                    <option value="water">Nước suối</option>
+                    <option value="cocaCola" selected>Coca Cola</option>
+                    <option value="7up">7 Up</option>
+                    <option value="pessi">Pessi</option>
+                    <option value="orange-juice">Cam ép</option>
+                    <option value="sting">Sting</option>
+                    <option value="redbull">Bò húc</option>
+                </select>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Trái cây các loại: </p>
+            </div>
+            <div class="col-md-3">
+                <select name="" id="fruits">
+                    <option value="small-fruits">Trái cây nhỏ</option>
+                    <option value="big-fruits" selected>Trái cây lớn</option>
+                    <option value="pomelo">Bưởi</option>
+                </select>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Số tiền của bạn: </p>
+            </div>
+            <div class="col-md-5">
+                <input type="number" id="money-client">
+            </div>
+            <div class="col-md-2">
+                <button onclick="myFunction()">OK</button>
+            </div>
+        </div>
+        <div class="row">
+            <p id="output"></p>
+        </div>
+    </div>
+</body>
+<script src="menu.js"></script>
+</html>

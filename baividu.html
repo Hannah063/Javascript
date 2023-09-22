@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="baividu.css">
+</head>
+<body>
+    <!-- <button onclick="FunctionHCN()">DT_HCN</button>
+    <button onclick="FunctionHV()">DT_HV</button>
+    <button onclick="FunctionHello()">Hello</button>
+
+    <p id="hcn"></p>
+    <p id="hv"></p>
+    <p id="hello"></p>
+
+        function FunctionHCN(){
+            var a = parseFloat(prompt("Nhập cạnh a: "));
+            var b = parseFloat(prompt("Nhập cạnh b: "));
+            var dt = a * b;
+            document.getElementById('hcn').innerHTML = "Diện tích hình chữ nhật là: " + dt; 
+        }
+
+        function FunctionHV(){
+            var a = parseFloat(prompt("Nhập cạnh: "));
+            var dt = a * a;
+            document.getElementById('hv').innerHTML = "Diện tích hình vuông là: " + dt; 
+        }
+
+        function FunctionHello(){
+            document.getElementById('hello').innerHTML = "Chào mừng bạn";
+        } -->
+    <div class="container">
+        <p>Click the button to display a time-based greeting:</p>
+        <input type="number" name="nhap" form="arm">
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+    </div>
+
+    <script>
+        function myFunction(){
+            var number = document.querySelector("input[name='nhap']").value;//byname//phổ biến sử dụng query 
+            //var number = arm.nhap.value; //bằng form
+            var greeting;
+            if(number==0){
+                greeting = "Bạn được 0 điểm";
+            }else if (number > 0){
+                greeting = "Đây là số dương";
+            }else{
+                greeting = "Đây là số âm"
+            }
+            document.getElementById('demo').innerHTML = greeting;
+        }
+    </script>
+</body>
+</html>
