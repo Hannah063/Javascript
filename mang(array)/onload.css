@@ -1,0 +1,18 @@
+body{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    font-weight: 500;
+}
+a:hover{
+    background-color: rgb(220, 73, 9);
+    color: black;
+    height: 30px;
+    width: 115px;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+}
