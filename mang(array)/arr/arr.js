@@ -8,7 +8,7 @@ function save(){
         qty: document.getElementById('q-p').value,
         price: document.getElementById('p-p').value
     }
-    console.log(arr)
+    console.log(newArr)
     arr.push(newArr)
 }
 
